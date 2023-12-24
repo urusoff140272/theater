@@ -1,0 +1,44 @@
+.parners {
+    margin: 0 auto;
+    text-align: center;
+    background-color: $color-background;
+    padding-bottom: 89px;
+    padding-top: 100px;
+}
+
+.parners__list {
+    margin: 137px 15% 0 15%;
+    @media (max-width: 769px) {
+        margin: 95px 5% 0 5%;
+    }
+}
+
+.parners__item {
+    overflow: hidden;
+}
+
+.parners__item-one {
+    display: flex;
+    gap: 29px;
+    margin-left: 10%;
+    @media (max-width: 1135px) {
+        margin-left: 5%;
+    }
+    @media (max-width: 769px) {
+       margin-left: 0;
+    }
+}
+
+.parners__item-two {
+    margin-top: 139px;
+    display: flex;
+    margin-left: 10%;
+    gap: 29px;
+    @media (max-width: 1135px) {
+        margin-top: 90px;
+        margin-left: 5%;
+    }
+    @media (max-width: 769px) {
+        margin-left: 0;
+     }
+}
