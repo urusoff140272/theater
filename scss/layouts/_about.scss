@@ -1,0 +1,90 @@
+.about {
+    margin: 0 auto;
+    text-align: center;
+    background-color: $color-background;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    @media (max-width: 769px) {
+        padding-top: 90px;
+        padding-bottom: 109px;
+    }
+}
+
+.about__subtitle {
+    font-size: 21px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: $color-textLight;
+    @media (max-width: 685px) {
+        text-align: center;
+    }
+}
+.about__numbers-content {
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 685px) {
+        flex-direction: row;
+        gap: 50px;
+    }
+}
+
+.about__content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+    @media (max-width: 1135px) {
+        margin-top: 100px;
+    }
+    @media (max-width: 769px) {
+        margin-top: 60px;
+    }
+}
+
+.about__description {
+    max-width: 445px;
+    text-align: start;
+    margin-left: 10px;
+    margin-right: 10px;
+    @media (max-width: 685px) {
+        max-width: 514px;
+    }
+}
+
+.about__text {
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 150%;
+    color: $color-textLight;
+    margin-top: 35px;
+}
+
+.about__numbers {
+    text-align: start;
+}
+
+.about__numbers-one {
+    margin-top: 35px;
+}
+
+.about__numbers-text {
+    letter-spacing: 0.8px;
+    color: $color-textLight;
+    margin-top: 15px;
+}
+
+.about__numbers-two {
+    margin-top: 20px;
+    @media (max-width: 685px) {
+   margin-top: 35px;
+    }
+}
+
+.about__photo {
+    display: block;
+    margin-right: 10px;
+    @media (max-width: 1135px) {
+        display: none;
+    }
+}

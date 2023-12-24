@@ -1,9 +1,33 @@
-body{
-    font-family: 'Open Sans Condensed', Verdana, sans-serif;
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans Condensed", Verdana, sans-serif;
     margin: 0 auto;
     background-color: aqua;
 }
 
-.wrapper{
+.wrapper {
     max-width: $content-width;
+    margin: 0 auto;
+}
+
+.main__wrapper {
+    margin: 0 auto;
+}
+
+.subtitle {
+    font-size: 64px;
+    letter-spacing: 6.4px;
+    text-transform: uppercase;
+    color: $color-textLight;
+    @media (max-width: 1135px) {
+        font-size: 48px;
+        letter-spacing: 4.8px;
+    }
+}
+
+.subtitle-accent{
+    color: $color-textDark;
 }

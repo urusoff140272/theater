@@ -44,6 +44,11 @@
 
             <div class="header__content">
                 <div class="header__menu">
+                    <div class="hamburger">
+                        <span class="hamburger__line"></span>
+                        <span class="hamburger__line"></span>
+                        <span class="hamburger__line"></span>
+                    </div>
                     <nav class="header__navigation">
                         <ul class="header__navigation-list">
                             <li class="header__navigation-item">
@@ -51,15 +56,15 @@
                             </li>
 
                             <li class="header__navigation-item">
-                                <a href="#" class="header__navigation-link">ПРО ТЕАТР</a>
+                                <a href="#about" class="header__navigation-link">ПРО ТЕАТР</a>
                             </li>
 
                             <li class="header__navigation-item">
-                                <a href="#" class="header__navigation-link">НАШІ ПОСТАНОВКИ</a>
+                                <a href="#projects" class="header__navigation-link">НАШІ ПОСТАНОВКИ</a>
                             </li>
 
                             <li class="header__navigation-item">
-                                <a href="#" class="header__navigation-link">ПАРТНЕРИ ТЕАТРУ</a>
+                                <a href="#partners" class="header__navigation-link">ПАРТНЕРИ ТЕАТРУ</a>
                             </li>
 
                             <li class="header__navigation-item">
@@ -74,7 +79,7 @@
                     </div>
                 </div>
 
-                <div class="header__blok">
+                <div class="header__block">
                     <div class="header__description">
                         <h1 class="header__title">
                             театр ім. Лесі Українки
@@ -123,15 +128,133 @@
                     </div>
                 </div>
             </div>
-            <div class="header__bacground">
-                <img src="./img/header/background.jpg" alt="background" class="header__bacground-picture">
-            </div>
+
+            <img src="./img/header/background.jpg" alt="background" class="header__bacground-picture">
         </header>
 
-        <main>
+        <main class="main__wrapper">
+            <section class="about" id="about">
+                <div class="about__content">
+                    <h2 class="subtitle">
+                        <span class="subtitle-accent">про</span> театр
+                    </h2>
 
-            <p>
+                    <div class="about__content-wrapper">
+                        <div class="about__description">
+                            <h3 class="about__subtitle">
+                                кращий театр в області
+                            </h3>
 
+                            <p class="about__text">
+                                Всі ці імена загальновідомі, як загальновідомо і те, що марка Театру імені Лесі Українки
+                                завжди привертала до себе не тільки професіоналів, але й непересічних глядачів сотень
+                                міст нинішнього простору СНД, де проходили гастролі театру. Офіційна біографія
+                                Національного академічного театру російської драми імені Лесі Українки починається в
+                                1926 році, коли рішенням Київського окрвиконкому була організована в Києві Російська
+                                державна драма, і 15 жовтня того ж року театр відкрив свій перший сезон. У 1941 році
+                                йому було присвоєно ім'я Лесі Українки.
+                            </p>
+                        </div>
+
+                        <div class="about__numbers">
+                            <h3 class="about__subtitle">
+                                трохи про цифри
+                            </h3>
+
+                            <div class="about__numbers-content">
+                                <div class="about__numbers-one">
+                                    <img src="./img/about/armchair .svg" alt="armchair">
+
+                                    <div class="about__numbers-text">
+                                        <span class="subtitle-accent">1600</span> посадочних місць
+                                    </div>
+                                </div>
+
+                                <div class="about__numbers-two">
+                                    <img src="./img/about/theater .svg" alt="theater">
+
+                                    <div class="about__numbers-text">
+                                        <span class="subtitle-accent">350</span> років історії
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <img src="./img/about/photo.jpg" alt="photo" class="about__photo">
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="projects" id="projects">
+                <div class="projects__content">
+                    <h2 class="subtitle">
+                        <span class="subtitle-accent">наші</span> постановки
+                    </h2>
+
+                    <div class="projects__container">
+                        <div class="projects__slider">
+                            <img src="./img/projects/img1.jpg" alt="photo">
+
+                            <img src="./img/projects/img2.jpg" alt="photo">
+
+                            <img src="./img/projects/img3.jpg" alt="photo">
+
+                            <img src="./img/projects/img4.jpg" alt="photo">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="rating">
+                <div class="rating__content">
+                    <div class="rating__content-years">
+                        <p>2018</p>
+                        <p>2019</p>
+                        <p>2020</p>
+                    </div>
+
+                    <div class="rating__content-description">
+                        <img src="./img/rating/stars.svg" alt="stars">
+    
+                        <p class="rating__content-text">
+                            Найкращий театр <br>
+                            на думку театральних <br> критиків Парижа
+                        </p>
+                    </div>
+
+                    <img src="./img/rating/theater.png" alt="theater" class="rating__content-photo">
+                </div>
+            </section>
+
+            <section class="parners" id="partners">
+                <div class="partners__content">
+                    <h2 class="subtitle">
+                        <span class="subtitle-accent">партнери</span> театру
+                    </h2>
+
+                    <div class="parners__list">
+                        <div class="parners__item">
+                            <div class="parners__item-one">
+                                <img src="./img/partners/avada-media 3.svg" alt="logo">
+                                <img src="./img/partners/spaceLab.svg" alt="logo">
+                                <img src="./img/partners/avada-media 4.svg" alt="logo">
+                                <img src="./img/partners/spaceLab.svg" alt="logo">
+                            </div>
+                        </div>
+
+                        <div class="parners__item">
+                            <div class="parners__item-two">
+                                <img src="./img/partners/spaceLab.svg" alt="logo">
+                                <img src="./img/partners/avada-media 2.svg" alt="logo">
+                                <img src="./img/partners/spaceLab.svg" alt="logo">
+                                <img src="./img/partners/avada-media 1.svg" alt="logo">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
 
         </main>
 
