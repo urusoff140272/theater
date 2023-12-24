@@ -72,6 +72,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans Condensed", Verdana, sans-serif;
   margin: 0 auto;
@@ -81,6 +85,23 @@ body {
 .wrapper {
   max-width: 1920px;
   margin: 0 auto;
+}
+
+.subtitle {
+  font-size: 64px;
+  letter-spacing: 6.4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+@media (max-width: 1135px) {
+  .subtitle {
+    font-size: 48px;
+    letter-spacing: 4.8px;
+  }
+}
+
+.subtitle-accent {
+  color: #D1A954;
 }
 
 .header__wrapper {
@@ -370,4 +391,116 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 55px;
+}
+
+.main__wrapper {
+  margin: 0 auto;
+}
+
+.about {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #333333;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+@media (max-width: 769px) {
+  .about {
+    padding-top: 90px;
+    padding-bottom: 109px;
+  }
+}
+
+.about__subtitle {
+  font-size: 21px;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+@media (max-width: 685px) {
+  .about__subtitle {
+    text-align: center;
+  }
+}
+
+.about__numbers-content {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 685px) {
+  .about__numbers-content {
+    flex-direction: row;
+    gap: 50px;
+  }
+}
+
+.about__content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 80px;
+}
+@media (max-width: 1135px) {
+  .about__content-wrapper {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 769px) {
+  .about__content-wrapper {
+    margin-top: 60px;
+  }
+}
+
+.about__description {
+  max-width: 445px;
+  text-align: start;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media (max-width: 685px) {
+  .about__description {
+    max-width: 514px;
+  }
+}
+
+.about__text {
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-top: 35px;
+}
+
+.about__numbers {
+  text-align: start;
+}
+
+.about__numbers-one {
+  margin-top: 35px;
+}
+
+.about__numbers-text {
+  letter-spacing: 0.8px;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+
+.about__numbers-two {
+  margin-top: 20px;
+}
+@media (max-width: 685px) {
+  .about__numbers-two {
+    margin-top: 35px;
+  }
+}
+
+.about__photo {
+  display: block;
+  margin-right: 10px;
+}
+@media (max-width: 1135px) {
+  .about__photo {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
