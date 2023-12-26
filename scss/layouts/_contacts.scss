@@ -1,0 +1,132 @@
+.contacts {
+    margin: 0 auto;
+    text-align: center;
+    background-color: $color-background;
+    padding-bottom: 80px;
+    padding-top: 100px;
+    @media (max-width: 769px) {
+        padding-bottom: 50px;
+    }
+}
+
+.contacts__container {
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+    margin-top: 78px;
+    flex-wrap: wrap-reverse;
+    @media (max-width: 1099px) {
+        gap: 80px;
+    }
+    @media (max-width: 769px) {
+        gap: 60px;
+        margin-top: 55px;
+    }
+}
+.rating__content-text {
+    margin-left: 10px;
+}
+
+.mail-text {
+    letter-spacing: 0.8px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: $color-textLight;
+}
+
+.contacts__list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+
+    @media (max-width: 1099px) {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 730px;
+        div:nth-child(2) {
+            text-align: end;
+            margin-right: 10px;
+        }
+        div:nth-child(1) {
+            margin-left: 10px;
+        }
+    }
+}
+
+.contacts__list-block {
+    text-align: start;
+    li:nth-child(1) {
+        margin-bottom: 25px;
+    }
+}
+
+.contacts__form {
+    margin-right: 10px;
+}
+
+.contacts__form-text {
+    font-family: Open Sans;
+    font-size: 12px;
+    line-height: 150%;
+    color: $color-textForm;
+}
+.contacts__form-input {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contacts__form-user {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contacts__form-item {
+    width: 180px;
+    height: 35px;
+    border: 1px solid $color-backgroundForm;
+    background-color: $color-backgroundForm;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 150%;
+    padding-left: 15px;
+    @media (max-width: 739px) {
+        width: 238px;
+    }
+}
+
+.contacts__form-sumbit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    @media (max-width: 739px) {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+}
+
+.contacts__form-textarea {
+    width: 310px;
+    height: 100px;
+    @media (max-width: 739px) {
+        width: 509px;
+    }
+}
+
+.contacts__form-text {
+    max-width: 390px;
+}
+.contacts__form-button {
+    width: 190px;
+    height: 50px;
+    background-color: $color-textDark;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: $color-textLight;
+}

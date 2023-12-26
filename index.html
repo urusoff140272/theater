@@ -38,7 +38,7 @@
                             <img src="./img/header/youtube.svg" alt="youtube">
                         </a>
                     </li>
-
+                </ul>
 
             </aside>
 
@@ -50,6 +50,10 @@
                         <span class="hamburger__line"></span>
                     </div>
                     <nav class="header__navigation">
+                        <div class="hamburger__menu">
+                            <img src="./img/header/close.svg" alt="close">
+                        </div>
+
                         <ul class="header__navigation-list">
                             <li class="header__navigation-item">
                                 <a href="index.html" class="header__navigation-link">ГОЛОВНА</a>
@@ -68,7 +72,33 @@
                             </li>
 
                             <li class="header__navigation-item">
-                                <a href="#" class="header__navigation-link">КОНТАКТИ</a>
+                                <a href="#contacts" class="header__navigation-link">КОНТАКТИ</a>
+                            </li>
+                        </ul>
+
+                        <ul class="header__social">
+                            <li>
+                                <a href="#">
+                                    <img src="./img/header/instagram.svg" alt="instagram">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="./img/header/facebook.svg" alt="facebook">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="./img/header/kontakt.svg" alt="kontakt">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="./img/header/youtube.svg" alt="youtube">
+                                </a>
                             </li>
                         </ul>
                     </nav>
@@ -216,7 +246,7 @@
 
                     <div class="rating__content-description">
                         <img src="./img/rating/stars.svg" alt="stars">
-    
+
                         <p class="rating__content-text">
                             Найкращий театр <br>
                             на думку театральних <br> критиків Парижа
@@ -256,10 +286,77 @@
                 </div>
             </section>
 
+            <section class="contacts" id="contacts">
+                <div class="contacts__content">
+                    <h2 class="subtitle">
+                        <span class="subtitle-accent">стати</span> меценатом
+                    </h2>
+                    <div class="contacts__container">
+                            <ul class="contacts__list">
+                                <div class="contacts__list-block">
+                                    <li class="contacts__item">
+                                        <a href="tel:380958507235" class="header__phone-text">+38 (095) 850-72-35</a>
+                                    </li>
+    
+                                    <li class="contacts__item">
+                                        <a href="tel:3809565071795" class="header__phone-text">+38 (095) 650-71-79</a>
+                                    </li>
+                                </div>
+
+                                <div class="contacts__list-block">
+                                    <li class="contacts__item">
+                                        <a href="mailto:info@theater.uam" class="mail-text">info@theater.ua</a>
+                                    </li>
+    
+                                    <li>
+                                        <p class="header__slider-button">
+                                            м. Київ, вул.Богдана Хмельницького 5140
+                                        </p>
+                                    </li>
+                                </div>
+                            </ul>
+
+                        <form action="#" method="post" class="contacts__form">
+                            <div class="contacts__form-input">
+                                <div class="contacts__form-user">
+                                    <input type="text" name="name" placeholder="Ім’я" required class="contacts__form-item">
+                                    <input type="tel" name="phone" placeholder="Телефон" required class="contacts__form-item">
+                                </div>
+
+                                <div class="contacts__form-user">
+                                    <input type="text" name="company" placeholder="Компанія" required class="contacts__form-item">
+                                    <input type="email" name="email" placeholder="E-mail" required class="contacts__form-item">
+                                </div>
+
+                                <div>
+                                    <textarea name="text" placeholder="Повідомлення" class="contacts__form-item contacts__form-textarea"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="contacts__form-sumbit">
+                                <p class="contacts__form-text">
+                                    * Ваші дані не будуть передані третім особам, 100% ймовірність. Конфіденційність ми
+                                    гарантуємо та захищаємо персональні дані.
+                                </p>
+                                <button type="submit" class="contacts__form-button">Надіслати</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </section>
         </main>
 
-        <footer>
+        <footer class="footter">
+<div class="footer__container">
+    <p class="footer__text">
+        © 2022 Національний академічний драматичний театр ім. Лесі Українки
+    </p>
 
+    <p class="footer__text">
+        Розроблено SpaceLab
+    </p>
+</div>
         </footer>
     </div>
 
